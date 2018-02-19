@@ -1,0 +1,14 @@
+*.class
+
+# Deny package files
+*.jar
+
+# Allow lib package files
+!/lib/*.jar
+
+# Deny output directories
+/bin
+
+# Deny workspace settings files
+*.classpath
+*.project
